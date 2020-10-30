@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    app:statusBarBackground="@android:color/transparent"
+    tools:background="@drawable/gradient_flow">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView_splash_android"
+        android:layout_width="@dimen/lottie_dimension"
+        android:layout_height="@dimen/lottie_dimension"
+        android:layout_margin="@dimen/magin_normal"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/magin_normal"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView_unam"
+        tools:text="V1.0 Dulce Coral Rodriguez Garcia" />
+
+    <ImageView
+        android:id="@+id/imageView_unam"
+        android:layout_width="@dimen/logo_dimension"
+        android:layout_height="@dimen/logo_dimension"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:src="@drawable/unam_logo" />
+
+    <ImageView
+        android:id="@+id/imageView_fi"
+        android:layout_width="@dimen/logo_dimension"
+        android:layout_height="@dimen/logo_dimension"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/facultad_ingenieria_logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

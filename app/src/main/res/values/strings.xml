@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">User Information</string>
+    <string name="app_info">V1.0 Dulce Coral Rodriguez Garcia</string>
+    <string name="unam_lot_android_logo" translatable="false">unam_android_logo.json</string>
+</resources>

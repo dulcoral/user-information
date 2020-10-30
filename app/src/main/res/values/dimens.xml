@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="magin_normal">15dp</dimen>
+    <dimen name="lottie_dimension">230dp</dimen>
+    <dimen name="logo_dimension">60dp</dimen>
+</resources>
