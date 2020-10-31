@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Extraordinario</string>
-    <string name="app_info">V1.0 Dulce Coral Rodriguez Garcia</string>
+    <string name="app_info">V1.2.0 Dulce Coral Rodriguez Garcia</string>
     <string name="unam_lot_android_logo" translatable="false">unam_android_logo.json</string>
     <string name="select_option">Selecciona una opción</string>
     <string name="data_user_title">Datos del Usuario</string>
