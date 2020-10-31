@@ -10,4 +10,7 @@
     <color name="unam_gold">#efb810</color>
     <color name="unam_blue">#1630C1</color>
     <color name="unam_color">#0F50BF</color>
+    <color name="grey">#858383</color>
+    <color name="text_color">#332927</color>
+    <color name="soft_grey">#9aabb5</color>
 </resources>
