@@ -1,5 +1,77 @@
 <resources>
-    <string name="app_name">User Information</string>
+    <string name="app_name">Extraordinario</string>
     <string name="app_info">V1.0 Dulce Coral Rodriguez Garcia</string>
     <string name="unam_lot_android_logo" translatable="false">unam_android_logo.json</string>
+    <string name="select_option">Selecciona una opción</string>
+    <string name="data_user_title">Datos del Usuario</string>
+    <string name="data_user_subtitle">Ingresa tus datos para calcular tu información</string>
+    <string name="text_date_of_birth">Fecha de nacimiento</string>
+    <string name="select_sport_text">Selecciona tu deporte favorito</string>
+    <string name="zip_code_error">Ingresa un código postal válido</string>
+    <string name="name_error">El nombre no puede estar vacío</string>
+    <string name="last_name_error">El apellido paterno no puede estar vacío</string>
+    <string name="mother_last_name_error">El apellido materno no puede estar vacío</string>
+    <string name="birth_date_error">La fecha de cumpleaños no puede estar vacío</string>
+    <string name="sport_error">El deporte favorito no puede estar vacío</string>
+    <string name="generic_error">Ha ocurrido un error</string>
+    <string name="name_title">Nombres</string>
+    <string name="last_name_title">Apellido Paterno</string>
+    <string name="mother_last_name_title">Apellido Materno</string>
+    <string name="zip_code_title">Código postal</string>
+    <string name="continue_button_title">Continuar</string>
+    <string name="info_user_title">Hola %1$s,</string>
+    <string name="info_user_subtitle">Este es el resultado de tu información</string>
+    <string name="rfc_text">RFC</string>
+    <string name="age_title">Edad</string>
+    <string name="zodiac_text">Zodiaco: \n %1$s</string>
+    <string name="chinese_zodiac">Zodiaco Chino:\n %1$s de %2$s %3$s</string>
+    <string name="favorite_sport">Deporte Favorito: %1$s</string>
+    <string-array name="sports_array">
+        <item name="sports_array0">Fútbol</item>
+        <item name="sports_array1">Fútbol Americano</item>
+        <item name="sports_array2">Béisbol</item>
+        <item name="sports_array3">Basquetbol</item>
+        <item name="sports_array4">Natación</item>
+        <item name="sports_array5">Gimnasia</item>
+        <item name="sports_array6">Atletismo</item>
+    </string-array>
+    <string-array name="signs_array">
+        <item name="signs_array0">Cerdo</item>
+        <item name="signs_array1">Rata</item>
+        <item name="signs_array2">Buey</item>
+        <item name="signs_array3">Tigre</item>
+        <item name="signs_array4">Conejo</item>
+        <item name="signs_array5">Dragón</item>
+        <item name="signs_array6">Serpiente</item>
+        <item name="signs_array7">Caballo</item>
+        <item name="signs_array8">Cabra</item>
+        <item name="signs_array9">Mono</item>
+        <item name="signs_array10">Gallo</item>
+        <item name="signs_array11">Perro</item>
+    </string-array>
+    <string-array name="elements_array">
+        <item name="elements_array0">Metal</item>
+        <item name="elements_array1">Agua</item>
+        <item name="elements_array2">Madera</item>
+        <item name="elements_array3">Fuego</item>
+        <item name="elements_array4">Tierra</item>
+    </string-array>
+    <string-array name="polarity_array">
+        <item name="polarity_array0">Yang</item>
+        <item name="polarity_array1">Yin</item>
+    </string-array>
+    <string-array name="zodiac_array">
+        <item name="zodiac_array0">Aries</item>
+        <item name="zodiac_array1">Tauro</item>
+        <item name="zodiac_array2">Géminis</item>
+        <item name="zodiac_array3">Cáncer</item>
+        <item name="zodiac_array4">Leo</item>
+        <item name="zodiac_array5">Virgo</item>
+        <item name="zodiac_array6">Libra</item>
+        <item name="zodiac_array7">Escorpio</item>
+        <item name="zodiac_array8">Sagitario</item>
+        <item name="zodiac_array9">Capricornio</item>
+        <item name="zodiac_array10">Acuario</item>
+        <item name="zodiac_array11">Piscis</item>
+    </string-array>
 </resources>

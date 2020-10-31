@@ -1,4 +1,4 @@
-package com.unam.userinformation
+package com.unam.userinformation.views
 
 import android.content.Intent
 import android.graphics.drawable.AnimationDrawable
@@ -7,7 +7,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.airbnb.lottie.LottieDrawable
+import com.unam.userinformation.R
 import com.unam.userinformation.databinding.ActivityUnamSplashBinding
+import com.unam.userinformation.viewModels.SplashState
+import com.unam.userinformation.viewModels.SplashViewModel
 
 class SplashActivity : AppCompatActivity() {
 
@@ -45,8 +48,8 @@ class SplashActivity : AppCompatActivity() {
 
     private fun animationStart() {
         binding.layoutSplash.background = getDrawable(R.drawable.gradient_flow)
-        var animationDrawable = binding.layoutSplash.background as AnimationDrawable
-        animationDrawable.start()
+        var animationDrawable = binding.layoutSplash.background as? AnimationDrawable
+        animationDrawable?.start()
     }
 
     private fun goToMainActivity() {

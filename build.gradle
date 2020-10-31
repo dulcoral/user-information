@@ -13,7 +13,6 @@ buildscript {
     ext.daggerVersion = '2.23.2'
     ext.daggerAndroidVersion = '2.23.2'
     ext.retrofitVersion = '2.9.0'
-    ext.okHttpVersion = '3.5.0'
     ext.assisted_inject = '0.5.2'
     ext.jUnitVersion = "4.13"
     ext.glideVersion = "4.9.0"

@@ -1,9 +1,53 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
     <style name="Theme.UserInformation" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/unam_gold</item>
-        <item name="colorPrimaryDark">@color/unam_blue</item>
-        <item name="colorAccent">@color/purple_500</item>
-        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/unam_blue</item>
+        <item name="colorPrimaryDark">@color/soft_grey</item>
+        <item name="colorAccent">@color/unam_gold</item>
+    </style>
+
+    <style name="TextInputLayout_Light" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/text_color</item>
+        <item name="textInputStyle">@style/TextInputLayout_Dense</item>
+        <item name="android:focusable">true</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="boxStrokeColor">@android:color/transparent</item>
+        <item name="colorControlActivated">@android:color/transparent</item>
+        <item name="colorControlNormal">@android:color/transparent</item>
+    </style>
+
+    <style name="TextInputLayout_Dense" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
+        <item name="boxCollapsedPaddingTop">-1dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="endIconMode">clear_text</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:layout_marginStart">@dimen/normal_size</item>
+        <item name="android:layout_marginTop">@dimen/normal_size</item>
+        <item name="android:background">@null</item>
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
+    <style name="TextView_Regular">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/soft_grey</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:layout_marginStart">@dimen/normal_size</item>
+        <item name="android:layout_marginTop">@dimen/medium_size</item>
+        <item name="android:layout_marginEnd">@dimen/medium_size</item>
+    </style>
+
+    <style name="HoloDatePickerDialog" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="View_Separator">
+        <item name="android:background">@color/grey</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:layout_marginStart">@dimen/normal_size</item>
+        <item name="android:layout_marginTop">@dimen/medium_size</item>
+        <item name="android:layout_marginEnd">@dimen/normal_size</item>
     </style>
 </resources>

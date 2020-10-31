@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">User Information</string>
+    <string name="app_info">V1.0 Dulce Coral Rodriguez Garcia</string>
+    <string name="select_option">Choose an option</string>
+    <string name="data_user_title">User data</string>
+    <string name="data_user_subtitle">Enter your data to calculate your information</string>
+    <string name="text_date_of_birth">Birthdate</string>
+    <string name="select_sport_text">Choose your favorite sport</string>
+    <string name="zip_code_error">Please enter a valid zip code</string>
+    <string name="name_error">The name cannot be empty</string>
+    <string name="last_name_error">The last name cannot be empty</string>
+    <string name="mother_last_name_error">Mother\'s last name cannot be empty</string>
+    <string name="birth_date_error">Birthdate cannot be empty</string>
+    <string name="sport_error">The favorite sport cannot be empty</string>
+    <string name="generic_error">An error has occurred</string>
+    <string name="name_title">Names</string>
+    <string name="last_name_title">Last name</string>
+    <string name="mother_last_name_title">Mother\'s last name</string>
+    <string name="zip_code_title">Zip code</string>
+    <string name="continue_button_title">Continue</string>
+    <string name="info_user_title">Hi! %1$s,</string>
+    <string name="info_user_subtitle">This is the result of your information</string>
+    <string name="rfc_text">RFC</string>
+    <string name="age_title">Age</string>
+    <string name="zodiac_text">Zodiac: \n %1$s</string>
+    <string name="chinese_zodiac">Zodiac Chinese:\n %2$s %1$s %3$s </string>
+    <string name="favorite_sport">Favorite Sport: %1$s</string>
+    <string-array name="sports_array">
+        <item name="sports_array0">Football</item>
+        <item name="sports_array1">American football</item>
+        <item name="sports_array2">Baseball</item>
+        <item name="sports_array3">Basketball</item>
+        <item name="sports_array4">Swimming</item>
+        <item name="sports_array5">Gymnastics</item>
+        <item name="sports_array6">Athletics</item>
+    </string-array>
+    <string-array name="signs_array">
+        <item name="signs_array0">Pig</item>
+        <item name="signs_array1">Rat</item>
+        <item name="signs_array2">Ox</item>
+        <item name="signs_array3">Tigger</item>
+        <item name="signs_array4">Rabbit</item>
+        <item name="signs_array5">Dragon</item>
+        <item name="signs_array6">Snake</item>
+        <item name="signs_array7">Horse</item>
+        <item name="signs_array8">Goat</item>
+        <item name="signs_array9">Monkey</item>
+        <item name="signs_array10">Rooster</item>
+        <item name="signs_array11">Dog</item>
+    </string-array>
+    <string-array name="elements_array">
+        <item name="elements_array0">Metal</item>
+        <item name="elements_array1">Watter</item>
+        <item name="elements_array2">Wood</item>
+        <item name="elements_array3">Fire</item>
+        <item name="elements_array4">Earth</item>
+    </string-array>
+    <string-array name="polarity_array">
+        <item name="polarity_array0">Yang</item>
+        <item name="polarity_array1">Yin</item>
+    </string-array>
+    <string-array name="zodiac_array">
+        <item name="zodiac_array0">Aries</item>
+        <item name="zodiac_array1">Taurus</item>
+        <item name="zodiac_array2">Gemini</item>
+        <item name="zodiac_array3">Cancer</item>
+        <item name="zodiac_array4">Leo</item>
+        <item name="zodiac_array5">Virgo</item>
+        <item name="zodiac_array6">Libra</item>
+        <item name="zodiac_array7">Scorpio</item>
+        <item name="zodiac_array8">Sagittarius</item>
+        <item name="zodiac_array9">Capricorn</item>
+        <item name="zodiac_array10">Aquarium</item>
+        <item name="zodiac_array11">Pisces</item>
+    </string-array>
+</resources>

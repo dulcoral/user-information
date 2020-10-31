@@ -1,4 +1,4 @@
-package com.unam.userinformation
+package com.unam.userinformation.viewModels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

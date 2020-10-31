@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="magin_normal">15dp</dimen>
     <dimen name="lottie_dimension">230dp</dimen>
     <dimen name="logo_dimension">60dp</dimen>
+    <dimen name="text_size_big">20sp</dimen>
+    <dimen name="text_size_huge">24sp</dimen>
+    <dimen name="normal_size">8dp</dimen>
+    <dimen name="medium_size">16dp</dimen>
+    <dimen name="big_size">20dp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="form_item_size">50dp</dimen>
+    <dimen name="edit_text_picker">75dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
 </resources>
