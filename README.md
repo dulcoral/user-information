@@ -12,8 +12,11 @@ O bien clonar el proyecto y probar con Android Studio
 ## Construido con 🛠️ 🔧
 
 * [Kotlin](https://kotlinlang.org/docs/reference/) - El lenguaje oficial
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [MVVM](hhttps://developer.android.com/jetpack/guide) - Arquitectura para Android
+* [Gradle](https://docs.gradle.org/current/userguide/userguide.html) - Manejador de dependencias
+* [MVVM](https://developer.android.com/jetpack/guide) - Arquitectura para Android
+* [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
+* [Coroutines](https://developer.android.com/kotlin/coroutines) - Splash
+
 
 ## Versionado 📌
 
