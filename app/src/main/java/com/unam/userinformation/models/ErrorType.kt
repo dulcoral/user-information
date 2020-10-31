@@ -6,5 +6,6 @@ enum class ErrorType {
     MOTHER_LAST_NAME_ERROR,
     ZIP_CODE_ERROR,
     SPORT_ERROR,
-    DATE_OF_BIRTH_ERROR
+    DATE_OF_BIRTH_ERROR,
+    OTHER
 }

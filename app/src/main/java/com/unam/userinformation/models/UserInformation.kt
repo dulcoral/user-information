@@ -1,6 +1,5 @@
 package com.unam.userinformation.models
 
-import android.icu.util.ChineseCalendar
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
@@ -10,7 +9,7 @@ data class UserInformation(
     val age: String? = null,
     val rfc: String? = null,
     val zodiac: String? = null,
-    val chineseZodiac: String? = null,
+    val chineseZodiac: List<String?>,
     val favoriteSport: String? = null,
     val zipCode: String? = null
 ) : Parcelable
